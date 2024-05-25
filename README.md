@@ -7,4 +7,4 @@ Galina takes the role “Editor”.
 
 Iliana takes the role “Shuffler”.
 
-Krasimir takes the role “Styler”.
+Krasimir/Simeon takes the role “Styler”.
