@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('#btnDelete').click(deleteTown)
+	$('#btnAdd').click(addTown);
 });
 
 $(document).ready(function() {
@@ -22,6 +23,14 @@ function shuffleTowns() {
 		}
 	}
 }
+
+function addTown() {
+	let townName = $('#townNameForAdd').val();
+	$('#townNameForAdd').val('');
+	$('#towns').append($('<option>').text(townName));
+	$('#result').text(townName + " added.");
+}
+
 
 function deleteTown() {
 	let townName = $('#townName').val();
